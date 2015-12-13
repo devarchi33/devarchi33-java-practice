@@ -2,6 +2,9 @@
 target/
 *.iml
 Thread/*.iml
+Thread/.classpath
+Thread/.project
+Thread/.settings/
 .metadata/
 RemoteSystemsTempFiles/
 Servers/
