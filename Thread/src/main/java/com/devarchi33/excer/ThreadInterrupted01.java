@@ -1,9 +1,9 @@
 package com.devarchi33.excer;
 
-public class ThreadInterrupted implements Runnable {
+public class ThreadInterrupted01 implements Runnable {
 
 	public static void main(String[] args) throws InterruptedException {
-		Thread th = new Thread(new ThreadInterrupted());
+		Thread th = new Thread(new ThreadInterrupted01());
 		th.start();
 
 		Thread.sleep(50);
