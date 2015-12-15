@@ -87,6 +87,13 @@
             <version>2.16.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- spring web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.2.3.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
