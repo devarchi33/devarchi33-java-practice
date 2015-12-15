@@ -1,4 +1,4 @@
-package com.devarchi33.excer;
+package com.devarchi33.excer.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +12,7 @@ import java.util.Enumeration;
 /**
  * Created by donghoon on 2015. 12. 15..
  */
-@WebServlet(name = "com.devarchi33.excer.ServletComp01", urlPatterns = {"/test"})
+@WebServlet(name = "com.devarchi33.excer.servlet.ServletComp01", urlPatterns = {"/test"})
 public class ServletComp01 extends HttpServlet {
     // Method to handle GET method request.
     public void doGet(HttpServletRequest request,
