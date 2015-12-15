@@ -5,6 +5,11 @@ Thread/*.iml
 Thread/.classpath
 Thread/.project
 Thread/.settings/
+Servlet/*.iml
+Servlet/.classpath
+Servlet/.project
+Servlet/.settings/
 .metadata/
 RemoteSystemsTempFiles/
 Servers/
+out/
