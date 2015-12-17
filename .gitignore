@@ -9,6 +9,10 @@ Servlet/*.iml
 Servlet/.classpath
 Servlet/.project
 Servlet/.settings/
+ClassLoader/*.iml
+ClassLoader/.classpath
+ClassLoader/.project
+ClassLoader/.settings/
 .metadata/
 RemoteSystemsTempFiles/
 Servers/
