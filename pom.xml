@@ -39,6 +39,7 @@
         <module>Thread</module>
         <module>Servlet</module>
         <module>ClassLoader</module>
+        <module>Reflection</module>
     </modules>
 
     <properties>

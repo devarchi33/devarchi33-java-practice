@@ -13,6 +13,10 @@ ClassLoader/*.iml
 ClassLoader/.classpath
 ClassLoader/.project
 ClassLoader/.settings/
+Reflection/*.iml
+Reflection/.classpath
+Reflection/.project
+Reflection/.settings/
 .metadata/
 RemoteSystemsTempFiles/
 Servers/
