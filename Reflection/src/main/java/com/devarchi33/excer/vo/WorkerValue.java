@@ -5,9 +5,9 @@ package com.devarchi33.excer.vo;
  */
 public class WorkerValue {
 
-    private static int POSITION_MANAGER = 0;
-    private static int POSITION_ASSISTANT = 1;
-    private static int POSITION_EMPLOYEE = 2;
+    public static int POSITION_MANAGER = 0;
+    public static int POSITION_ASSISTANT = 1;
+    public static int POSITION_EMPLOYEE = 2;
 
     private String name;
     private int position;
