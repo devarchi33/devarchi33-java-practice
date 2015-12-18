@@ -1,5 +1,7 @@
 package com.devarchi33.excer;
 
+import com.devarchi33.excer.vo.WorkerValue;
+
 /**
  * Created by donghoon on 2015. 12. 18..
  */
