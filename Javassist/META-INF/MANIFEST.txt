@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: devarchi33
+Build-Jdk: 1.8.0_45
+Premain-Class: com.devarchi33.excer.MyBciAgent
+Boot-Class-Path: ./dependency-jars/javassist-3.20.0-GA.jar
+Can-Redefine-Classes: true

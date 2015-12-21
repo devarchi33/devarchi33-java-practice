@@ -1,6 +1,10 @@
 .idea/
 target/
 *.iml
+Javassist/*.iml
+Javassist/.classpath
+Javassist/.project
+Javassist/.settings/
 Thread/*.iml
 Thread/.classpath
 Thread/.project
