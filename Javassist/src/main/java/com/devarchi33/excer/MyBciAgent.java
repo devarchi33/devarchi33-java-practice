@@ -21,6 +21,7 @@ public class MyBciAgent implements ClassFileTransformer {
         instrumentation.addTransformer(new MyBciAgent());
     }
 
+    @Override
     public byte[] transform(ClassLoader loader, String className,
                             Class redefiningClass, ProtectionDomain domain, byte[] bytes)
             throws IllegalClassFormatException {
