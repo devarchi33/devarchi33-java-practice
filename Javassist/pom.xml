@@ -71,7 +71,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.devarchi33.excer.DoSomething</mainClass>
+                            <!--<mainClass>com.devarchi33.excer.DoSomething</mainClass>-->
                             <!-- jar 파일 META-INF/MANIFEST.MF 에 클래스패스 정보 추가 -->
                             <addClasspath>true</addClasspath>
                             <!--
