@@ -41,6 +41,7 @@
         <module>ClassLoader</module>
         <module>Reflection</module>
         <module>Javassist</module>
+        <module>Netty</module>
     </modules>
 
     <properties>
