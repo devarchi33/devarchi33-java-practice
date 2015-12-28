@@ -29,6 +29,7 @@ public class EchoServer {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             ChannelPipeline p = socketChannel.pipeline();
+                            p.addLast(new LoggingHandler(LogLevel.INFO));
                             p.addLast(new EchoServerHandler());
                         }
                     });
