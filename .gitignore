@@ -9,6 +9,7 @@ Thread/*.iml
 Thread/.classpath
 Thread/.project
 Thread/.settings/
+*/src/main/test/
 Servlet/*.iml
 Servlet/.classpath
 Servlet/.project
