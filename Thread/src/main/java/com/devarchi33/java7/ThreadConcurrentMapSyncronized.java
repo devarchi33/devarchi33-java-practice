@@ -6,7 +6,7 @@ import java.util.*;
  * Created by donghoon on 2015. 12. 30..
  * 문제: 서로 다르지만 연관된 여러 컬렉션을 동시에 수정하고 싶다. 그리고 이 수정작업을 완료하기 전에는 다른 스레드가 작업중인 컬렉션에 절대 접근하지 못하게 하고 싶다.
  */
-public class ThreadConcurrentMap01 {
+public class ThreadConcurrentMapSyncronized {
 
     Set<Thread> orderingThreads = new HashSet<>();
     final HashMap<String, Integer> inventoryMap = new LinkedHashMap<>();
@@ -14,7 +14,7 @@ public class ThreadConcurrentMap01 {
     Random random = new Random();
 
     public static void main(String[] args) throws InterruptedException {
-        ThreadConcurrentMap01 tr = new ThreadConcurrentMap01();
+        ThreadConcurrentMapSyncronized tr = new ThreadConcurrentMapSyncronized();
         tr.start();
     }
 
