@@ -23,6 +23,7 @@ public class EchoServer {
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 1)
                     .handler(new LoggingHandler(LogLevel.INFO))
+                    .childOption(ChannelOption.SO_LINGER, 1)
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
