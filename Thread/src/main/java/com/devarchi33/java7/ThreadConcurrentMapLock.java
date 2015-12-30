@@ -1,4 +1,4 @@
-package com.devarchi33.java7.hashmap;
+package com.devarchi33.java7;
 
 import java.util.*;
 import java.util.concurrent.locks.Lock;
